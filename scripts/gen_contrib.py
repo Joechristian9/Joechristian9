@@ -90,6 +90,11 @@ def render(total, weeks):
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
          f'role="img" aria-label="{total} contributions in the last year">',
          '<style>.w{opacity:0;animation:in .5s ease-out forwards}@keyframes in{to{opacity:1}}</style>',
+         f'<defs><clipPath id="grid"><rect x="{left - 2}" y="{top - 2}" width="{n * pitch + 2}" height="{7 * pitch + 2}"/></clipPath>'
+         '<linearGradient id="scan" x1="0" x2="1" y1="0" y2="0">'
+         '<stop offset="0" stop-color="#bfdbfe" stop-opacity="0"/>'
+         '<stop offset="0.5" stop-color="#bfdbfe" stop-opacity="0.32"/>'
+         '<stop offset="1" stop-color="#bfdbfe" stop-opacity="0"/></linearGradient></defs>',
          f'<rect width="{W}" height="{H}" rx="14" fill="#0A1224"/>',
          f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="14" fill="none" stroke="#1E3A6E"/>',
          f'<text x="22" y="30" font-family="{MONO}" font-size="14" font-weight="700" fill="#E6EDF3">'
@@ -119,9 +124,24 @@ def render(total, weeks):
             lvl = lvl_of(d["contributionCount"])
             x = left + i * pitch
             y = top + d["weekday"] * pitch
+            twinkle = ""
+            if lvl > 0:
+                rnd = random.Random(i * 13 + d["weekday"])
+                twinkle = (f'<animate attributeName="opacity" values="1;0.5;1" dur="{2.4 + rnd.random() * 2.6:.2f}s" '
+                           f'begin="{2.0 + rnd.random() * 3:.2f}s" repeatCount="indefinite"/>')
             s.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{COLORS[lvl]}">'
-                     f'<title>{d["contributionCount"]} contributions on {d["date"]}</title></rect>')
+                     f'{twinkle}<title>{d["contributionCount"]} contributions on {d["date"]}</title></rect>')
         s.append('</g>')
+
+    gw = n * pitch
+    s.append(f'<g clip-path="url(#grid)"><rect x="{left}" y="{top - 2}" width="70" height="{7 * pitch + 2}" fill="url(#scan)">'
+             f'<animateTransform attributeName="transform" type="translate" dur="7s" begin="2s" repeatCount="indefinite" '
+             f'values="-70 0;{gw} 0;{gw} 0" keyTimes="0;0.55;1"/></rect></g>')
+    last = weeks[-1]["contributionDays"][-1]
+    rx_, ry_ = left + (n - 1) * pitch, top + last["weekday"] * pitch
+    s.append(f'<rect x="{rx_ - 2}" y="{ry_ - 2}" width="{cell + 4}" height="{cell + 4}" rx="4" fill="none" '
+             f'stroke="#93c5fd" stroke-width="1.5" opacity="0">'
+             f'<animate attributeName="opacity" values="0;1;0" dur="2s" begin="2s" repeatCount="indefinite"/></rect>')
 
     ly = H - 22
     lx = W - 22 - 5 * pitch - 70
