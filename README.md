@@ -35,6 +35,12 @@
   <img src="https://streak-stats.demolab.com?user=Joechristian9&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakNum=FFFFFF&currStreakLabel=3B82F6&sideNums=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub streak" />
 </p>
 
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="./assets/contributions.svg" width="860" alt="Contribution graph" />
+</p>
+
 ## 🐍 Contribution Snake
 
 <p align="center">

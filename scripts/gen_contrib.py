@@ -70,7 +70,17 @@ def demo():
     return total, weeks
 
 
+def level_fn(weeks):
+    """Shade by quartiles of the non-zero daily counts (independent of the API's level field)."""
+    counts = sorted(d["contributionCount"] for w in weeks for d in w["contributionDays"] if d["contributionCount"] > 0)
+    if not counts:
+        return lambda n: 0
+    q = [counts[int(len(counts) * f)] if int(len(counts) * f) < len(counts) else counts[-1] for f in (0.25, 0.5, 0.75)]
+    return lambda n: 0 if n <= 0 else 1 if n <= q[0] else 2 if n <= q[1] else 3 if n <= q[2] else 4
+
+
 def render(total, weeks):
+    lvl_of = level_fn(weeks)
     pitch, cell = 15, 12
     left, right, top = 44, 21, 62
     n = len(weeks)
@@ -106,7 +116,7 @@ def render(total, weeks):
     for i, wk in enumerate(weeks):
         s.append(f'<g class="w" style="animation-delay:{i * 0.025:.3f}s">')
         for d in wk["contributionDays"]:
-            lvl = LEVELS.get(d["contributionLevel"], 0)
+            lvl = lvl_of(d["contributionCount"])
             x = left + i * pitch
             y = top + d["weekday"] * pitch
             s.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{COLORS[lvl]}">'
