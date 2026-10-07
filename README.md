@@ -10,6 +10,12 @@
 
 </div>
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="./assets/snake.svg" width="880" alt="Snake eating JOE-DEV" />
+</p>
+
 ## ⚡ About Me
 
 <div align="center">
@@ -41,8 +47,4 @@
   <img src="./assets/contributions.svg" width="860" alt="Contribution graph" />
 </p>
 
-## 🐍 Contribution Snake
 
-<p align="center">
-  <img src="./assets/snake.svg" width="880" alt="Snake eating JOE-DEV" />
-</p>
