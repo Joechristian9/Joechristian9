@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Joechristian9&label=PROFILE+VIEWS&color=8B5CF6&style=flat-square" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=Joechristian9&label=PROFILE+VIEWS&color=3B82F6&style=flat-square" alt="profile views" />
 
 <img src="./assets/divider.svg" width="860" alt="" />
 
@@ -27,10 +27,10 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Joechristian9&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=8B5CF6&text_color=C9D1D9&ring_color=8B5CF6" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joechristian9&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Joechristian9&show_icons=true&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9&ring_color=3B82F6" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joechristian9&layout=compact&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Joechristian9&background=0D1117&ring=8B5CF6&fire=8B5CF6&currStreakNum=FFFFFF&currStreakLabel=8B5CF6&sideNums=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Joechristian9&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakNum=FFFFFF&currStreakLabel=3B82F6&sideNums=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub streak" />
 </p>

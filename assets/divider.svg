@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="36" viewBox="0 0 860 36" role="presentation">
 <defs><linearGradient id="ln" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#2A3142" stop-opacity="0"/><stop offset="0.2" stop-color="#2A3142"/><stop offset="0.8" stop-color="#2A3142"/><stop offset="1" stop-color="#2A3142" stop-opacity="0"/></linearGradient><filter id="glow" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="3"/></filter></defs>
 <rect x="0" y="18" width="860" height="1.5" fill="url(#ln)"/>
-<circle cx="430" cy="18.75" r="8" fill="#8B5CF6" filter="url(#glow)" opacity="0.8"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="2.6s" repeatCount="indefinite"/><animate attributeName="r" values="6;10;6" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="430" cy="18.75" r="8" fill="#3B82F6" filter="url(#glow)" opacity="0.8"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="2.6s" repeatCount="indefinite"/><animate attributeName="r" values="6;10;6" dur="2.6s" repeatCount="indefinite"/></circle>
 <circle cx="430" cy="18.75" r="4.5" fill="#fff"/>
-<circle cx="430" cy="18.75" r="3" fill="#A78BFA"/>
+<circle cx="430" cy="18.75" r="3" fill="#60A5FA"/>
 </svg>
