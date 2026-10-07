@@ -35,14 +35,8 @@
   <img src="https://streak-stats.demolab.com?user=Joechristian9&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakNum=FFFFFF&currStreakLabel=3B82F6&sideNums=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub streak" />
 </p>
 
-## 📈 Contribution Graph
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Joechristian9&bg_color=0D1117&color=60A5FA&line=3B82F6&point=FFFFFF&area=true&area_color=3B82F6&hide_border=true&title_color=3B82F6&custom_title=joe-dev%20Contribution%20Graph" alt="Contribution graph" />
-</p>
-
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Joechristian9/Joechristian9/output/github-snake.svg" alt="joe-dev contribution snake" />
+  <img src="./assets/snake.svg" width="880" alt="Snake eating JOE-DEV" />
 </p>
