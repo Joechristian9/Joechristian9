@@ -1,32 +1,36 @@
 <div align="center">
 
-<!-- macOS Terminal window (animated SVG) -->
-<img src="./terminal.svg" width="800" alt="macOS terminal intro" />
-
-</div>
+<img src="./assets/hero.svg" width="860" alt="Hi, I'm Joechristian - Full-Stack Web Developer" />
 
 <br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+<img src="https://komarev.com/ghpvc/?username=Joechristian9&label=PROFILE+VIEWS&color=8B5CF6&style=flat-square" alt="profile views" />
 
----
+<img src="./assets/divider.svg" width="860" alt="" />
 
-### `~ % git log --stats`
+</div>
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Joechristian9&show_icons=true&theme=dark&hide_border=true&bg_color=1E1E1E&title_color=5AF78E&icon_color=57C7FF&text_color=D4D4D4&border_radius=10" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joechristian9&layout=compact&theme=dark&hide_border=true&bg_color=1E1E1E&title_color=5AF78E&text_color=D4D4D4&border_radius=10" />
-</p>
+## ⚡ About Me
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=1500&color=5AF78E&background=1E1E1E&center=true&vCenter=true&width=500&height=40&lines=joechristian+%7E+%25+exit;Thanks+for+visiting!+%F0%9F%91%8B" alt="footer typing" />
+<img src="./assets/about.svg" width="780" alt="About me terminal" />
 
 </div>
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,laravel,js,react,tailwind,html,css,mysql,git,github,vscode,postman&perline=12" alt="Tech stack" />
+</p>
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Joechristian9&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=8B5CF6&text_color=C9D1D9&ring_color=8B5CF6" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joechristian9&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Joechristian9&background=0D1117&ring=8B5CF6&fire=8B5CF6&currStreakNum=FFFFFF&currStreakLabel=8B5CF6&sideNums=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub streak" />
+</p>
